@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <a href="index.html"><img src="IICT logo white3 tp.png" alt="iict" class="icon"></a>  
+        </div>
+      
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      
+        <div class="container" style="background-color:#f1f1f1  ">
+          <button type="button" class="signin"><a href="sinup.html">Signup</a></button>
+          <button type="button" class="home"><a  href="index.html">Home </a></button>
+          
+          <span class="psw">Forgot <a style="color: black;" href="#">password?</a></span>
+        </div>
+      </form>   
+
+
+</body>
+</html>
